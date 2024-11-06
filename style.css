@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: white;
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+}
+.heading span{
+    color: blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.products{
+    text-align: center;
+}
+.products .card{
+    width: 20%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10%;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(250, 142, 2);
+    margin: 5px;
+}
+.products .card img{
+    width: 80%;
+    border-radius: 10%;
+}
+.products .card .btn{
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    background-color: rgb(248, 112, 0);
+    border-radius: 10%;
+    border: 1px solid black;
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.products .card .btn:hover{
+    transform: scale(1.1);
+}
+
